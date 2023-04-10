@@ -27,7 +27,6 @@ export function MyContext({ children }) {
                 }
             })
             setPhotos(photos)
-            // console.log(data.photos)
         }
         catch (error) {
             console.log(error)
@@ -35,6 +34,5 @@ export function MyContext({ children }) {
     }
 
     const globalState = { photos, setPhotos }
-
     return <Context.Provider value={globalState}>{children}</Context.Provider>
 }

@@ -5,7 +5,6 @@ import DeleteFilled from "../assets/iconos/delete-filled.svg"
 
 export default function GaleriaFav() {
   const { photos, setPhotos } = useContext(Context)
-  // console.log(photos)
 
   const favPhotos = photos.filter((photo, i) => photo.liked == true)
 

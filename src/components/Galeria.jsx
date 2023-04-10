@@ -30,7 +30,6 @@ export default function Home() {
                 e.target.classList.remove("img-black-and-white");
                 e.target.classList.add("foto-style");
               }
-              // console.log(photos)
             }
             }
           >
