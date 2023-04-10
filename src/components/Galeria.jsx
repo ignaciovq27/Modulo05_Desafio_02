@@ -13,8 +13,7 @@ export default function Home() {
         return (
           <div
             key={i}
-            // className="foto"
-            className={photo.liked ? "foto foto-style" : "img-black-and-white foto"}
+            className={photo.liked ? "foto foto-style pointer" : " foto img-black-and-white pointer"}
             style={{ backgroundImage: `url("${photo.src}")` }}
             onClick={(e) => {
               const picture = photos[i]
