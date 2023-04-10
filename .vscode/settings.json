@@ -1,0 +1,20 @@
+{
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "git.decorations.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.colorCustomizations": {},
+    "editor.colorDecorators": true,
+    "editor.suggest.showColors": true,
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "debug.enableStatusBarColor": true,
+    "editor.suggest.showCustomcolors": true,
+    "workbench.editor.decorations.colors": true,
+    "explorer.decorations.colors": true,
+    "search.decorations.colors": true,
+    "outline.problems.colors": false,
+    "editor.minimap.renderCharacters": true
+}
