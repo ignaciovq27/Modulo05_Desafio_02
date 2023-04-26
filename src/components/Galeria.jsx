@@ -5,7 +5,7 @@ import HeartFilled from "../assets/iconos/heart-filled.svg"
 import HeartEmpty from "../assets/iconos/heart.svg"
 
 
-export default function Home() {
+export default function Galeria() {
   const { photos, setPhotos } = useContext(Context)
   return (
     <div className="galeria p-3">
