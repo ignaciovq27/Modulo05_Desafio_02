@@ -8,7 +8,7 @@ import HeartEmpty from "../assets/iconos/heart.svg"
 export default function Galeria() {
   const { photos, setPhotos } = useContext(Context)
   return (
-    <div className="galeria p-3">
+    <div className="galeria grid-columns-4 p-3">
       {photos.map((photo, i) => {
         return (
           <div
